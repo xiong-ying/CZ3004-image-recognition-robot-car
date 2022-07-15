@@ -1,0 +1,16 @@
+Six
+DownArrow
+AlphabetY
+Seven
+Go
+AlphabetW
+Eight
+LeftArrow
+AlphabetV
+Nine
+UpArrow
+AlphabetX
+Zero
+RightArrow
+AlphabetZ
+BullsEye
