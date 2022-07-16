@@ -52,7 +52,7 @@ def markObstaclesOnMAP(obstacles):
 
     # Mark the obstacles position on the MAP as 0
     for i in range(len(obstacles)):
-        MAP[obstacles[i][0]][obstacles[i][1]] = 0
+        MAP[obstacles[i][0]][obstacles[i][1]] = "0"
     # End of function markObstaclesOnMAP(MAP, obstacles)
 
 
@@ -90,14 +90,12 @@ def checkAccessible(node):
     # if 0 <= node[0] <= (19-ROBOT_WIDTH+1) and 0 <= node[1] <= (19-ROBOT_WIDTH+1):
         for i in range(ROBOT_WIDTH):
             for j in range(ROBOT_WIDTH):
-                #print("for i = ", i, " , j = ", j)
-                #print("The node (", node[0]+i, ", ", node[1]+j, ") on the map is ", MAP[node[0]+i][node[1]+j])
-                #print("Type of MAP[][] is ", type(MAP[node[0]+i][node[1]+j]))
-                #print(" == 0? ", MAP[node[0]+i][node[1]+j] == 0)
+                print("for i = ", i, " , j = ", j)
+                print("The node (", node[0]+i, ", ", node[1]+j, ") on the map is ", MAP[node[0]+i][node[1]+j])
+                print("type of MAP node is ", type(MAP[node[0]+i][node[1]+j] ))
                 if MAP[node[0]+i][node[1]+j] == 0:
-                    #print("before return")
+                    print("before return")
                     return False
-                    #
                     print("after return")
                     break
         return True
@@ -891,34 +889,21 @@ def mainAlgo():
 
 
     # 4.2 for each section of the path, find the shortest trip between 2 Vertex
-
-    # Initialize a empty list
-    plannedTrip = []
-
-    for vertex in plannedPath:
-        print("vertex is ", vertex)
-        trip = planTripAlgo(vertex)
-        print("Planned Trip to reach vertex ", vertex, " is ", plannedTrip)
-
-
-    # try plan trip for the first section
-
+    #plannedTrip = []
     #trip = planTripAlgo(plannedPath[0])
     #plannedTrip.append(trip)
     #print("Planned Trip is ", plannedTrip)
     #print("ROBOT is ", ROBOT)
 
-    # try plan trip for the second section
-    #ROBOT = [4, 2, "N"]
+    ROBOT = [4, 2, "N"]
     #trip = planTripAlgo(plannedPath[1])
     #plannedTrip.append(trip)
     #print("Planned Trip is ", plannedTrip)
     #print("ROBOT is ", ROBOT)
 
-    # testing checkAccessible function
-    #ROBOT = [4, 6, "S"]
-    #check = checkAccessible(ROBOT)
-    #print("check is ", check)
+    ROBOT = [4, 6, "S"]
+    check = checkAccessible(ROBOT)
+    print("check is ", check)
 
 
 
