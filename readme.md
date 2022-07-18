@@ -37,5 +37,4 @@ Machine Learning Model - TensorFlow Lite
 Computer Vision Tool - OpenCV
 
 How to use:
-a. On Rpi, install tflite_runtime, opencv
-b. refer to "main.py" for example of usage
+On Rpi, install tflite_runtime, opencv. Then, refer to "main.py" for example of usage
