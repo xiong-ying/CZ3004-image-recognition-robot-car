@@ -1,8 +1,10 @@
+# CZ3004 Multidisciplinary Design Project
+
 # Project Title
 Image Recognition Robotic Car
 
 # Project Purpose
-The project is created for NTU computer science module: CZ3003 Multidisciplinary Design Project.
+The project is created for NTU computer science module CZ3004.
 
 
 ## Background Info
