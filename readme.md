@@ -1,5 +1,5 @@
 # CZ3004 Multidisciplinary Design Project
-Date: 2022.07
+2022.07 @ Nanyang Technological University
 
 ## Project Title
 Image Recognition Robotic Car
