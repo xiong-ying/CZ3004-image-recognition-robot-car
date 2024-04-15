@@ -1,7 +1,7 @@
 # Image Recognition Robotic Car
 
-CZ3004 Multidisciplinary Design Project
-2022.07 @ Nanyang Technological University
+CZ3004 Multidisciplinary Design Project<br/>
+2022.07 @ Nanyang Technological University<br/>
 The project is created for NTU computer science module CZ3004.
 
 ## Project Purpose
