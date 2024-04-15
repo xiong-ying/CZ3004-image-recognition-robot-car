@@ -1,18 +1,18 @@
-# CZ3004 Multidisciplinary Design Project
+# Image Recognition Robotic Car
+
+CZ3004 Multidisciplinary Design Project
 2022.07 @ Nanyang Technological University
-
-## Project Title
-Image Recognition Robotic Car
-
-## Project Purpose
 The project is created for NTU computer science module CZ3004.
 
-
-## Background Info
+## Project Purpose
 
 On a 2 meters by 2 meters map, 5 obstacles are randomly placed on the map.<br/>
 
-There is 1 distinct symbol pasted on one side of each obstacle.
+There is 1 distinct symbol pasted on one side of each obstacle.<br/>
+
+Goal is to develop a robotic car that can find the shortest path to scan the sign on the obstacle, <br/>
+
+and accurately recognise the symbol.
 
 
 ## The ultimate objective
