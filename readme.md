@@ -14,6 +14,7 @@ Goal is to develop a robotic car that can find the shortest path to scan the sig
 
 and accurately recognise the symbol.
 
+Presentation Video Link: [YouTube Video Link](https://www.youtube.com/watch?v=k-RgcFn8MNQ)
 
 ## The ultimate objective
 
